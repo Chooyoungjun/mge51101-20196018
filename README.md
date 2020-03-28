@@ -1,9 +1,11 @@
 # mge51101-20196018
 
+```
 Name: YoungJun Choo  
 Student No.: 20196018  
 School: Business Analytics  
 E-mail: gkdlfnddy@unist.ac.kr  
+
 
 
 
@@ -19,6 +21,6 @@ my plan is predict deepfake about voice and face so i will use kaggle data
 고려하면 될 것 같습니다. 
 
 참고 하실만한 자료를 공유 해 주시면 감하겠습니다. 
-
-너무 어렵습니다. 
+ 
 • I will review your plan and give comments
+
