@@ -48,7 +48,7 @@ In this case It  just distinguish Fake or Not so
 I use BinaryCrossentropy it is suitable for this case 
 because it can detect more sensitively especially between 1 and 0
 
-![equatio](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
+![equatio](https://latex.codecogs.com/gif.latex?-\frac{1}{N}\sum_{i=1}^N&space;[y_i&space;\log(\hat{y}_i)&plus;(1-y_i)&space;\log(1-\hat{y}_i)])
 
 • Describe [ what is, how to gather, difficulty of ] your data concretely
 Video data 500GB is on kaggle[kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website 
