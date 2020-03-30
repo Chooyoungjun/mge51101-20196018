@@ -47,7 +47,7 @@ That technology makes fake videos so sophisticated that it is difficult for huma
 In this case It  just distinguish Fake or Not so 
 I use BinaryCrossentropy it is suitable for this case 
 because it can detect more sensitively especially between 1 and 0
-$$$\sqrt{3x-1}+(1+x)^2$$$ 
+![screenshot_20171221-151714](https://www.google.co.kr/url?sa=i&url=https%3A%2F%2Fdatascience.stackexchange.com%2Fquestions%2F52144%2Fnegative-range-for-binary-cross-entropy-loss&psig=AOvVaw0QlK0VDgYFd2uQhS_EwJiM&ust=1585654159351000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiT3JqMwugCFQAAAAAdAAAAABAD)
 • Describe [ what is, how to gather, difficulty of ] your data concretely
 Video data 500GB is on kaggle website 
 [kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") 
