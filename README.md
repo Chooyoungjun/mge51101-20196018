@@ -47,7 +47,7 @@ That technology makes fake videos so sophisticated that it is difficult for huma
 In this case It  just distinguish Fake or Not so 
 I use BinaryCrossentropy it is suitable for this case 
 because it can detect more sensitively especially between 1 and 0
-![screenshot_20171221-151714](https://www.google.co.kr/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Funderstanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a&psig=AOvVaw0QlK0VDgYFd2uQhS_EwJiM&ust=1585654159351000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODXpOGMwugCFQAAAAAdAAAAABAK)
+![equation](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
 • Describe [ what is, how to gather, difficulty of ] your data concretely
 Video data 500GB is on kaggle[kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website 
 for gathering it is down through the Internet
