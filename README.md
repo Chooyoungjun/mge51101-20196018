@@ -47,10 +47,9 @@ That technology makes fake videos so sophisticated that it is difficult for huma
 In this case It  just distinguish Fake or Not so 
 I use BinaryCrossentropy it is suitable for this case 
 because it can detect more sensitively especially between 1 and 0
-![screenshot_20171221-151714](https://www.google.co.kr/url?sa=i&url=https%3A%2F%2Fdatascience.stackexchange.com%2Fquestions%2F52144%2Fnegative-range-for-binary-cross-entropy-loss&psig=AOvVaw0QlK0VDgYFd2uQhS_EwJiM&ust=1585654159351000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiT3JqMwugCFQAAAAAdAAAAABAD)
+![screenshot_20171221-151714](https://www.google.co.kr/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Funderstanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a&psig=AOvVaw0QlK0VDgYFd2uQhS_EwJiM&ust=1585654159351000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODXpOGMwugCFQAAAAAdAAAAABAK)
 • Describe [ what is, how to gather, difficulty of ] your data concretely
-Video data 500GB is on kaggle website 
-[kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") 
+Video data 500GB is on kaggle[kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website 
 for gathering it is down through the Internet
 also data each data make Time Serial Image data and Voice data for Learning 
 it take almost 1 month
