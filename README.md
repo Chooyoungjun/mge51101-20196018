@@ -50,6 +50,7 @@ because it can detect more sensitively especially between 1 and 0
 $$$\sqrt{3x-1}+(1+x)^2$$$ 
 • Describe [ what is, how to gather, difficulty of ] your data concretely
 Video data 500GB is on kaggle website 
+[kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") 
 for gathering it is down through the Internet
 also data each data make Time Serial Image data and Voice data for Learning 
 it take almost 1 month
