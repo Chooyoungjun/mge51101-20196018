@@ -48,6 +48,20 @@ Detain image is below
 ![realimage](deepfakedetection/sample/real.jpg)
 ![fakeimage](deepfakedetection/sample/fake.jpg)
 
+more detail about image 
+what is part of fake? eye.. 
+
+below image show more detail about fake
+
+![realdetailimage](deepfakedetection/sample/realdetail.jpg)
+![fakedetailimage](deepfakedetection/sample/fakedetail.jpg)
+
+So we neet to detect this kind of fake 
+Actually it is not difficult part because we can detect by our eyes.
+Detection algorithm can detect fake batter than human, so it is very hard technique
+
+And Voice fake is also exist actually i dont know exactly how to detect voice i will learn and develop by your class and self study during this semaster
+
 • How to evaluate your model empirically? What is your metric?
 
 In this case It  just distinguish Fake or Not so I use BinaryCrossentropy it is suitable for this case because it can detect more sensitively especially between 1 and 0
