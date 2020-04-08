@@ -68,10 +68,30 @@ In this case It  just distinguish Fake or Not so I use BinaryCrossentropy it is 
 
 ![equation](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
 
+So evaluation standard is mean of BinaryCrossentropy 
+
+default value is 0.69 
+
 • Describe [ what is, how to gather, difficulty of ] your data concretely
 
-Video data 500GB is on kaggle[kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website for gathering it is down through the Internet, also data each data make Time Serial Image data and Voice data for Learning 
+Video data 500GB is on [kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website for gathering it is down through the Internet, also data each data make Time Serial Image data and Voice data for Learning 
 
 it take almost 1 month...
 
-• Read the issues in your GitHub and revise your proposal 
+• Feasibility
+
+now what i do 
+
+first, extract 10 Face by using MTCNN from each video 
+
+second, resizing 255,255,3 
+
+third, extract 1 voice data by using moviepy editor
+
+fourth, make a network. I try many times now using multi input and 2dconv instead of 3dconv and ensamble of each result
+
+fifth, leaning start using Adam optimizer and BinaryCrossentropy loss fuction
+
+sixth, now fail... so try again with your comment i think 
+
+My purpose is to have a better score than kaggle first place 0.19170. I would like to do so and issue paper.
