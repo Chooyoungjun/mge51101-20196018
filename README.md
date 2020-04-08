@@ -43,7 +43,7 @@ That technology makes fake videos so sophisticated that it is difficult for huma
 4. Voice Detection need anothor Tech (actually i don't know so i need to study.)
 5. computing resource is not enough 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video]](deepfakedetection/sample/hsbwhlolsn.mp4)
 
 • How to evaluate your model empirically? What is your metric?
 
