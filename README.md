@@ -43,6 +43,8 @@ That technology makes fake videos so sophisticated that it is difficult for huma
 4. Voice Detection need anothor Tech (actually i don't know so i need to study.)
 5. computing resource is not enough 
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
 • How to evaluate your model empirically? What is your metric?
 
 In this case It  just distinguish Fake or Not so I use BinaryCrossentropy it is suitable for this case because it can detect more sensitively especially between 1 and 0
