@@ -61,7 +61,7 @@ Above formula for back propagation loss value
 
 Evaluation Matrix is F1 score 
 
-Threshold about fake dection is 0.5 but it can change by result
+Threshold about fake dection is 0.5 but it can be changed by result
 
 ![equation](https://latex.codecogs.com/gif.latex?F1%20score%20%3D%202%5Ctimes%20%5Cfrac%7BPrecision%5Ctimes%20Recall%7D%7BPrecision&plus;%20Recall%7D)
 
