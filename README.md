@@ -14,9 +14,13 @@ Voice & Video data
 
 • What is your goal? Why this is important problem?
 
-purpose nowadays fake videos are damaging many people 
+first purpose nowadays fake videos are damaging many people 
 
 becase of Technology (Deeplearning, GAN ....)
+
+second purpose is to have a better score than kaggle first place 0.19170. I would like to do so and issue paper.
+
+In order to achieve the best score, I am studying the code from ranking 1st to 5th and planning development in my own way.
 
 That technology makes fake videos so sophisticated that it is difficult for humans to distinguish them.
 
@@ -28,7 +32,7 @@ That technology makes fake videos so sophisticated that it is difficult for huma
 4. Voice Detection need anothor Tech (actually i don't know so i need to study.)
 5. computing resource is not enough 
 
-Detain image is below 
+Detail image is below 
 
 ![realimage](deepfakedetection/sample/real.jpg)
 ![fakeimage](deepfakedetection/sample/fake.jpg)
@@ -53,9 +57,16 @@ In this case It  just distinguish Fake or Not so I use BinaryCrossentropy it is 
 
 ![equation](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
 
-So evaluation standard is mean of BinaryCrossentropy 
+Above formula for back propagation loss value
 
-default value is 0.69 
+Evaluation Matrix is F1 score 
+
+Threshold about fake dection is 0.5 but it can change by result
+
+![equation](https://latex.codecogs.com/gif.latex?F1%20score%20%3D%202%5Ctimes%20%5Cfrac%7BPrecision%5Ctimes%20Recall%7D%7BPrecision&plus;%20Recall%7D)
+
+
+
 
 • Describe [ what is, how to gather, difficulty of ] your data concretely
 
@@ -79,6 +90,4 @@ fifth, leaning start using Adam optimizer and BinaryCrossentropy loss fuction
 
 sixth, now fail... so try again with your comment i think 
 
-My purpose is to have a better score than kaggle first place 0.19170. I would like to do so and issue paper.
 
-In order to achieve the best score, I am studying the code from ranking 1st to 5th and planning development in my own way.
