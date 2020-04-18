@@ -24,7 +24,7 @@ In order to achieve the best score, I am studying the code from ranking 1st to 5
 
 That technology makes fake videos so sophisticated that it is difficult for humans to distinguish them.
 
-• Describe [ what is, how to gather, difficulty of ] your data concretely
+• Description of data
 
 Video data almost 500GB is on [kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website for gathering it ,i download videodata through the Internet. and then i make preprocessing code for traing. for example, 255x255 face extract and voice data extract.
 
