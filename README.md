@@ -24,6 +24,22 @@ In order to achieve the best score, I am studying the code from ranking 1st to 5
 
 That technology makes fake videos so sophisticated that it is difficult for humans to distinguish them.
 
+• Describe [ what is, how to gather, difficulty of ] your data concretely
+
+Video data almost 500GB is on [kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website for gathering it ,i download videodata through the Internet. and then i make preprocessing code for traing. for example, 255x255 face extract and voice data extract.
+
+it take almost 1 month...
+
+training data video is almost (4000*50)200000 videos
+
+each video has explaination about it is fake or not.. and if it is fake, additional information origin video is added 
+
+but it isnt explain about kind of fake (voice? video?)
+
+many kind of people is provided (black, white, brown, man,woman, older people, younger..)
+
+some video show more than two people..
+
 • Explain your Data Science problems in detail
 
 1. Video data is consist of 2 part color(R,G,B) and Time that is why it need high dimensional analysis
@@ -67,12 +83,6 @@ Threshold about fake dection is 0.5 but it can be changed by result
 
 
 
-
-• Describe [ what is, how to gather, difficulty of ] your data concretely
-
-Video data 500GB is on [kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website for gathering it is down through the Internet, also data each data make Time Serial Image data and Voice data for Learning 
-
-it take almost 1 month...
 
 • Feasibility
 
