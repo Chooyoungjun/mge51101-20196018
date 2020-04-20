@@ -80,7 +80,7 @@ Threshold about fake dection is 0.5 but it can be changed by result
 
 •  Data preparation and plan
 
-first- extract 10 Face by using MTCNN from each video and consider exception case (ex) 2face detection and face not found by MTCNN
+First - extract 10 Face by using MTCNN from each video and consider exception case (ex) 2face detection and face not found by MTCNN
 
 (whole image)
 
@@ -91,16 +91,16 @@ first- extract 10 Face by using MTCNN from each video and consider exception cas
 ![wholeimage](deepfakedetection/sample/MTCNN2.png)
 
 
-second- resizing 255x255x3 or 150x150x3(each case will be chosed by algorithm size and result)
+Second - resizing 255x255x3 or 150x150x3(each case will be chosed by algorithm size and result)
 
-third- extract 1 voice data by using moviepy editor
+Third - extract 1 voice data by using moviepy editor
 
-fourth- make a network. (2d conv alogrithm, 3d conv algorithm)
+Fourth - make a network. (2d conv alogrithm, 3d conv algorithm)
 
-fifth- leaning start using Adam optimizer and BinaryCrossentropy loss fuction
+Fifth - leaning start using Adam optimizer and BinaryCrossentropy loss fuction
 ![equation](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
 
 
-sixth- evaluate model and compare with kaggle algorithm 
+Sixth - evaluate model and compare with kaggle algorithm 
 
 
