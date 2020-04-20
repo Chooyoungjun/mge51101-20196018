@@ -98,6 +98,7 @@ Third - extract 1 voice data by using moviepy editor
 Fourth - make a network. (2d conv alogrithm, 3d conv algorithm)
 
 Fifth - leaning start using Adam optimizer and BinaryCrossentropy loss fuction
+
 ![equation](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
 
 
