@@ -81,6 +81,7 @@ Threshold about fake dection is 0.5 but it can be changed by result
 •  Data preparation and plan
 
 first- extract 10 Face by using MTCNN from each video and consider exception case (ex) 2face detection and face not found by MTCNN
+
 (whole image)
 
 ![wholeimage](deepfakedetection/sample/MTCNN1.png)
