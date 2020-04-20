@@ -39,7 +39,7 @@ many kind of people is provided (black, white, brown, man,woman, older people, y
 
 some video show more than two people..
 
-ex 사진 추가
+![videotype](deepfakedetection/sample/videotype.jpg)
 
 • Explain your Data Science problems in detail
 
@@ -83,12 +83,16 @@ Threshold about fake dection is 0.5 but it can be changed by result
 •  Data preparation and plan
 
 first- extract 10 Face by using MTCNN from each video and consider exception case (ex) 2face detection and face not found by MTCNN
-사진추가
+(whole image)
+![wholeimage](deepfakedetection/sample/MTCNN1.png)
+
+(face image by MTCNN)
+![wholeimage](deepfakedetection/sample/MTCNN2.png)
+
 
 second- resizing 255x255x3 or 150x150x3(each case will be chosed by algorithm size and result)
 
 third- extract 1 voice data by using moviepy editor
-사진추가
 
 fourth- make a network. (2d conv alogrithm, 3d conv algorithm)
 
