@@ -16,6 +16,8 @@ Related work
 
 Method
 
+![Overallstructure](image/Video분석전체구조.png)
+
 Result
 
 Conclution
