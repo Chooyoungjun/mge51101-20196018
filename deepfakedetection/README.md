@@ -16,6 +16,11 @@ Related work
 
 Method
 
+
+(detail about face & voice extracting method)
+![Faceandvoiceinformationextractingmethod](image/Faceandvoiceinformationextractingmethod.png)
+
+(overall structure)
 ![Overallstructure](image/Video분석전체구조.png)
 
 Result
