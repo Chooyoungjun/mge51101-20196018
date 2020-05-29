@@ -16,6 +16,11 @@ Related work
 
 Method
 
+
+(One Image fake detection Algorithm)
+![oneimageAlgorithm](image/oneimageAlgorithm.png)
+
+
 (detail face extraction algorithm)
 ![Faceextractiondetail](image/Faceextractiondetail.png)
 
