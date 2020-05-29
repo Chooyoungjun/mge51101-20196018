@@ -16,6 +16,9 @@ Related work
 
 Method
 
+(detail face extraction algorithm)
+![Faceextractiondetail](image/Faceextractiondetail.png)
+
 
 (detail about face & voice extracting method)
 
