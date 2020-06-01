@@ -18,7 +18,7 @@ Method
 
 (detail about face & voice extracting method)
 
-![Faceandvoiceinformationextractingmethod](./image/extractingmethod.png )
+![Faceandvoiceinformationextractingmethod](./image/extractingmethod.png =40x20)
 
 
 (detail face extraction algorithm)
