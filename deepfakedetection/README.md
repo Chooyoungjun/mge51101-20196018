@@ -18,7 +18,8 @@ Method
 
 (detail about face & voice extracting method)
 
-![Faceandvoiceinformationextractingmethod](image/extractingmethod.png){:height="36px" width="36px"}
+![Faceandvoiceinformationextractingmethod](image/extractingmethod.png){:height="36px" width="36px"}.
+
 
 
 (detail face extraction algorithm)
