@@ -25,18 +25,23 @@ Method
 
 
 (One Image fake detection Algorithm)
-<img src="./image/oneimageAlgorithm.png" width="50%" height="50%">
+
+<img src="./image/oneimageAlgorithm.png" width="50%" height="50%" style="float:left">
 
 
 (Voice fake detection Algorithm)
-<img src="./image/VoiceCNNalgorithm.png" width="50%" height="50%">
+
+<img src="./image/VoiceCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
 (Last CNN Algorithm)
-<img src="./image/lastCNNalgorithm.png" width="50%" height="50%">
+
+<img src="./image/lastCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
 
 (overall structure)
-![Overallstructure](image/Video분석전체구조.png)
+
+<img src="./image/Video분석전체구조.png" width="50%" height="50%" style="float:left">
+
 
 Result
 
