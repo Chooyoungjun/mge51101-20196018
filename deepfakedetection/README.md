@@ -20,7 +20,7 @@ Method
 <img src="./image/extractingmethod.png" width="70%" height="70%">
 
 (detail face extraction algorithm)
-<left><img src="./image/Faceextractiondetail.png" width="50%" height="50%" style="float:left"></left>
+<img src="./image/Faceextractiondetail.png" width="50%" height="50%" style="float:left">
 
 
 (One Image fake detection Algorithm)
