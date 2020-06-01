@@ -17,23 +17,21 @@ Related work
 Method
 
 (detail about face & voice extracting method)
-
 <img src="./image/extractingmethod.png" width="70%" height="70%">
 
 (detail face extraction algorithm)
-
-<img src="./image/Faceextractiondetail.png" width="70%" height="70%">
+<img src="./image/Faceextractiondetail.png" width="50%" height="50%">
 
 
 (One Image fake detection Algorithm)
-![oneimageAlgorithm](image/oneimageAlgorithm.png)
+<img src="./image/oneimageAlgorithm.png" width="50%" height="50%">
 
 
 (Voice fake detection Algorithm)
-![VoiceCNNalgorithm](image/VoiceCNNalgorithm.png)
+<img src="./image/VoiceCNNalgorithm.png" width="50%" height="50%">
 
 (Last CNN Algorithm)
-![LastCNNalgorithm](image/lastCNNalgorithm.png)
+<img src="./image/lastCNNalgorithm.png" width="50%" height="50%">
 
 
 (overall structure)
