@@ -40,7 +40,7 @@ Method
 
 (overall structure)
 
-<img src="./image/Video분석전체구조.png" width="50%" height="50%" style="float:left">
+<img src="./image/Video분석전체구조.png" width="80%" height="80%" style="float:left">
 
 
 Result
