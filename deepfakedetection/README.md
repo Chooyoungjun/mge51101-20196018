@@ -16,18 +16,22 @@ Related work
 
 Method
 
+(detail about face & voice extracting method)
 
-(One Image fake detection Algorithm)
-![oneimageAlgorithm](image/oneimageAlgorithm.png)
+![Faceandvoiceinformationextractingmethod](image/extractingmethod.png)
 
 
 (detail face extraction algorithm)
 ![Faceextractiondetail](image/Faceextractiondetail.png)
 
 
-(detail about face & voice extracting method)
+(One Image fake detection Algorithm)
+![oneimageAlgorithm](image/oneimageAlgorithm.png)
 
-![Faceandvoiceinformationextractingmethod](image/extractingmethod.png)
+
+(Voice fake detection Algorithm)
+![VoiceCNNalgorithm](image/VoiceCNNalgorithm.png)
+
 
 (overall structure)
 ![Overallstructure](image/Video분석전체구조.png)
