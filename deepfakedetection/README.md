@@ -32,6 +32,9 @@ Method
 (Voice fake detection Algorithm)
 ![VoiceCNNalgorithm](image/VoiceCNNalgorithm.png)
 
+(Last CNN Algorithm)
+![LastCNNalgorithm](image/lastCNNalgorithm.png)
+
 
 (overall structure)
 ![Overallstructure](image/Video분석전체구조.png)
