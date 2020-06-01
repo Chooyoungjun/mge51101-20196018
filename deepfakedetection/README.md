@@ -22,7 +22,7 @@ Method
 
 
 (detail face extraction algorithm)
-![Faceextractiondetail](image/Faceextractiondetail.png)
+![Faceextractiondetail](image/Faceextractiondetail.png){: width="50%" height="50%"}
 
 
 (One Image fake detection Algorithm)
