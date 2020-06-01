@@ -18,12 +18,11 @@ Method
 
 (detail about face & voice extracting method)
 
-![Faceandvoiceinformationextractingmethod](image/extractingmethod.png){:height="36px" width="36px"}.
-
-<img src="./image/extractingmethod.png" width="100" height="100">
+<img src="./image/extractingmethod.png" width="700" height="300">
 
 (detail face extraction algorithm)
-![Faceextractiondetail](image/Faceextractiondetail.png){: width="50%" height="50%"}
+
+<img src="./image/Faceextractiondetail.png" width="600" height="500">
 
 
 (One Image fake detection Algorithm)
