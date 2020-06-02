@@ -12,15 +12,21 @@ kaggle deepfake data 분석
 
 # Introduction
 Nowadays, youtube generates many videos. someone makes fake vidoes and voices for their benefits. and it makes many problems in society. evenif they makes president fake videos. Therefore, it is very important technology. we research fake video detecting algorithm.
+
 Recently, Deep Neural Networks is a paradigm. It solve many difficult problems such as NLP, S2S, Image Detection, Voice Recognition, MOT, GAN. In this paper, We use Two technology Image detection and Voice Recognitio. Because, it can relate with video analysis.
+
+Many researchers publish noticeable papers about the CNN. For example, MTCNN can detect face, Batch normalization can allow to use high learning rate, Inception block can extract complicate feature. To apply CNN algorithm for deepfake detection, we need to answer following questions:
+
+- sadfasdfsdf 
 # Related work
 
 # Method
 
-(detail about face & voice extracting method)
-<img src="./image/extractingmethod.png" width="70%" height="70%">
+(Detail about face & voice extracting method)
 
-(detail face extraction algorithm)
+<img src="./image/extractingmethod.png" width="70%" height="70%" style="float:left">
+
+(Detail face extraction algorithm)
 
 <img src="./image/Faceextractiondetail.png" width="50%" height="50%" style="float:left">
 
@@ -39,7 +45,7 @@ Recently, Deep Neural Networks is a paradigm. It solve many difficult problems s
 <img src="./image/lastCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
 
-(overall structure)
+(Overall structure)
 
 <img src="./image/Video분석전체구조.png" width="80%" height="80%" style="float:left">
 
