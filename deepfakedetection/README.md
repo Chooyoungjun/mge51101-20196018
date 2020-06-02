@@ -26,7 +26,12 @@ Solving above questions makes improvemtent about fake detection algorithm. In th
 - To extract face image, we use MTCNN algorithm and we consider error situation. so we can extract face from video without error.
 - To extract voice information, we use moviepy packacage. It allow to extract voice information from video.
 - To detect fake or not, we use CNN algorithm, inception block, Batch normalization, Sigmoid activation function for last activation function.
+
+Finally, we have a disscution about our experiment and future works.
+
 # Related work
+
+The literacture on image detection and voice recognition and CNN algorithm is vast and span. So, we focus on recent research about Deep Neual Networks.
 
 # Method
 
