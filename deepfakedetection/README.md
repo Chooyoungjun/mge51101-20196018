@@ -17,7 +17,15 @@ Recently, Deep Neural Networks is a paradigm. It solve many difficult problems s
 
 Many researchers publish noticeable papers about the CNN. For example, MTCNN can detect face, Batch normalization can allow to use high learning rate, Inception block can extract complicate feature. To apply CNN algorithm for deepfake detection, we need to answer following questions:
 
-- sadfasdfsdf 
+- Can we extract face from video without error?
+- Can we get voice information from video?
+- Can we detect fake or not by using face and voice information?
+
+Solving above questions makes improvemtent about fake detection algorithm. In this paper, actually we don't have remarkable achievements. Because, this paper is an intermediate process of algorithm development. Therefore, we focus on applying algorithm and experiment algorithm. The brief contributions can be summarized as follows:
+
+- To extract face image, we use MTCNN algorithm and we consider error situation. so we can extract face from video without error.
+- To extract voice information, we use moviepy packacage. It allow to extract voice information from video.
+- To detect fake or not, we use CNN algorithm, inception block, Batch normalization, Sigmoid activation function for last activation function.
 # Related work
 
 # Method
