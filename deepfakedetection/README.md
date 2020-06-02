@@ -11,7 +11,8 @@ E-mail: gkdlfnddy@unist.ac.kr
 kaggle deepfake data 분석 
 
 # Introduction
-Nowadays, youtube generates many video. someone makes fake vidoe and voice for their benefits. and it makes many problem in society. evenif they makes president fake video. Therefore, it is very important technology. we research fake video detecting algorithm.
+Nowadays, youtube generates many videos. someone makes fake vidoes and voices for their benefits. and it makes many problems in society. evenif they makes president fake videos. Therefore, it is very important technology. we research fake video detecting algorithm.
+Recently, Deep Neural Networks is a paradigm. It solve many difficult problems such as NLP, S2S, Image Detection, Voice Recognition, MOT, GAN. In this paper, We use Two technology Image detection and Voice Recognitio. Because, it can relate with video analysis.
 # Related work
 
 # Method
