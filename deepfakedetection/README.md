@@ -10,11 +10,11 @@ E-mail: gkdlfnddy@unist.ac.kr
 
 kaggle deepfake data 분석 
 
-Introduction
+#Introduction
 
-Related work
+#Related work
 
-Method
+#Method
 
 (detail about face & voice extracting method)
 <img src="./image/extractingmethod.png" width="70%" height="70%">
@@ -43,8 +43,8 @@ Method
 <img src="./image/Video분석전체구조.png" width="80%" height="80%" style="float:left">
 
 
-Result
+#Result
 
-Conclution
+#Conclution
 
 
