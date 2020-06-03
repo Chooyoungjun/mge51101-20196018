@@ -31,7 +31,16 @@ Finally, we have a disscution about our experiment and future works.
 
 # Related work
 
-The literacture on image detection and voice recognition and CNN algorithm is vast and span. So, we focus on recent research about Deep Neual Networks.
+The literacture on image detection and CNN algorithm is vast and span. So, we focus on recent research about Convolution Neual Networks. To detect face,  some of the CNNs based face detection approaches have been proposed in recent years. Yang et al. [11] train deep convolution neural networks for facial attribute recognition to obtain high response in face regions which  further yield candidate windows of faces. However, due to its complex CNN structure, this approach is time costly in practice. Li et al. [19] use cascaded CNNs for face detection, but it requires bounding box calibration from face detection with extra computational expense and ignores the inherent correlation between facial landmarks localization and bounding box regression. To overcome previous problem MTCNN is suggested and it show high performance we use this algorithm for face detection.
+
+To detect fake, feature extraction algorithm is also important. Many researchers know it is important and publish many papers. Residual bock is proposed to alleviate gradiant descent with low parameter. For the same reason, Densely block is designed and it has additional advatage about preservation images minor characteristics. Google develop inception block. this algorithm advantages are dimention reduction and extraction non-linear features. We apply this inception block. 
+
+[11] S. Yang, P. Luo, C. C. Loy, and X. Tang, “From facial parts responses to
+face detection: A deep learning approach,” in IEEE International Conference on Computer Vision, 2015, pp. 3676-3684.
+[19] H. Li, Z. Lin, X. Shen, J. Brandt, and G. Hua, “A convolutional neural
+network cascade for face detection,” in IEEE Conference on Computer
+Vision and Pattern Recognition, 2015, pp. 5325-5334.
+mtcnn: Zhang et al, Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks, 2016
 
 # Method
 
