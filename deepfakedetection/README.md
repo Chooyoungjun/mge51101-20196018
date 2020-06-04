@@ -9,6 +9,19 @@ E-mail: gkdlfnddy@unist.ac.kr
 ```
 
 kaggle deepfake data 분석 
+
+# mge51101-20196018
+
+```
+Name: YoungJun Choo  
+Student No.: 20196018  
+School: Business Analytics  
+E-mail: gkdlfnddy@unist.ac.kr  
+
+```
+
+kaggle deepfake data 분석 
+
 # Introduction
 Nowadays, youtube generates many videos. someone makes fake videos and voices for their benefits. and it makes many problems in society. they make even president fake videos. Therefore, it is a very important technology. we research fake video detecting algorithm.
 
@@ -49,9 +62,9 @@ In the MTCNN Section, we refer to MTCNN and just apply it to our model for extra
 
 <img src="./image/extractingmethod.png" width="70%" height="70%" style="float:left">
 
-(Figure 1 MTCNN 3 key methods)
+(Figure 1 MTCNN 3 key methods with pyramid input)
 
-In the Face extraction algorithm,
+In the Face extraction algorithm Section, we make this algorithm to extract face image from video. MTCNN can extract face 95%, so we need to consider the error situations.
 
 <img src="./image/Faceextractiondetail.png" width="50%" height="50%" style="float:left">
 
@@ -89,3 +102,5 @@ In the Overall structure,
 # Result
 
 # Conclution
+
+
