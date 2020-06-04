@@ -44,32 +44,47 @@ mtcnn: Zhang et al, Joint Face Detection and Alignment using Multi-task Cascaded
 
 # Method
 
-(Detail about face & voice extracting method)
+ In this section, we will have a comprehensive explanation of MTCNN, Face extraction algorithm, one image analysis algorithm, Voice analysis algorithm, last analysis algorithm and overall structure.
+
+(MTCNN)
 
 <img src="./image/extractingmethod.png" width="70%" height="70%" style="float:left">
 
-(Detail face extraction algorithm)
+(Figure 1 MTCNN 3 key methods)
+
+(Face extraction algorithm)
 
 <img src="./image/Faceextractiondetail.png" width="50%" height="50%" style="float:left">
+
+(Figure 2 Face extraction algorithm)
 
 
 (One Image fake detection Algorithm)
 
 <img src="./image/oneimageAlgorithm.png" width="50%" height="50%" style="float:left">
 
+(Figure 3 one image analysis algorithm)
+
+
 
 (Voice fake detection Algorithm)
 
 <img src="./image/VoiceCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
+(Figure 4 Voice fake detection Algorithm)
+
 (Last CNN Algorithm)
 
 <img src="./image/lastCNNalgorithm.png" width="50%" height="50%" style="float:left">
+
+(Figure 5 Last CNN Algorithm)
 
 
 (Overall structure)
 
 <img src="./image/Video분석전체구조.png" width="80%" height="80%" style="float:left">
+
+(Figure 6 Overall structure)
 
 
 # Result
