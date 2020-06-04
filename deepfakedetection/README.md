@@ -10,18 +10,6 @@ E-mail: gkdlfnddy@unist.ac.kr
 
 kaggle deepfake data 분석 
 
-# mge51101-20196018
-
-```
-Name: YoungJun Choo  
-Student No.: 20196018  
-School: Business Analytics  
-E-mail: gkdlfnddy@unist.ac.kr  
-
-```
-
-kaggle deepfake data 분석 
-
 # Introduction
 Nowadays, youtube generates many videos. someone makes fake videos and voices for their benefits. and it makes many problems in society. they make even president fake videos. Therefore, it is a very important technology. we research fake video detecting algorithm.
 
