@@ -96,7 +96,7 @@ Below Example snapshot is my papers part of time series attention function like 
 <img src="./image/mypaperAttentionpart.png" width="70%" height="70%" style="float:left">
 <img src="./image/mypaperAttentionpart2.png" width="70%" height="70%" style="float:left">
 
-#Reference
+# Reference
 [1]	W. Yin, K. Kann, M. Yu, and H. Schütze, “Comparative Study of CNN and RNN for Natural Language Processing,” Feb. 2017, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/1702.01923.
 [2]	I. Sutskever Google, O. Vinyals Google, and Q. V Le Google, “Sequence to Sequence Learning with Neural Networks.” Accessed: May 25, 2020. [Online]. Available: http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-.
 [3]	G. Huang, Z. Liu, L. Van Der Maaten, and K. Q. Weinberger, “Densely Connected Convolutional Networks,” 2017. Accessed: Apr. 01, 2020. [Online]. Available: https://github.com/liuzhuang13/DenseNet.
