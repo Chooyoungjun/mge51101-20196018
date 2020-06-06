@@ -71,7 +71,7 @@ Some videos are impossible to detect fake by my eyes. In general, two algorithm 
 
 • How to evaluate your model empirically? What is your metric?
 
-Evaluation Matrix is F1 score 
+Evaluation Metrics is F1 score 
 
 Threshold about fake dection is 0.5 but it can be changed by result
 

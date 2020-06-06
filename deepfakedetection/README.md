@@ -83,9 +83,13 @@ Now, we can understand that how each algorithm work to detect video fake. We are
 (Figure 6 Overall structure)
 
 # Result
-## Loss function
-## Metrics
-## Test Result
+In result section, we will explain about Loss function and Test Result. 
+### Loss function
+We use the Binary Crossentropy loss as a criterion. It is computed as:
+![equation](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
+This loss function can calculate large value when prediction is wrong. For example, ground truth is 0 and prediction value is 0.9. The loss is 1. If prediction value is 0.99, the loss is 2. If prediction value is 0.1, the loss is 0.0457. Likewise, this loss function can calculate exact loss value for training. That is why we choose this loss function.
+### Test Result
+In this project, loss function is criterion and metrics. This information can check [kaggle]( https://www.kaggle.com/c/deepfake-detection-challenge/overview/evaluation, "kaggle link")
 # Conclution
 
 
