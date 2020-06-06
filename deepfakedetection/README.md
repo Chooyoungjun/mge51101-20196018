@@ -52,44 +52,47 @@ In the MTCNN Section, we refer to MTCNN and just apply it to our model for extra
 
 (Figure 1 MTCNN 3 key methods with pyramid input)
 
-In the Face extraction algorithm Section, we make this algorithm to extract face image from video. MTCNN can extract face 95%, so we need to consider the error situations. In figure 2, this algorithm considers about error so we can get input data. Basically, we use CV2 video capture functions for capturing image. MTCNN detects Face from captured image. If we detect 10 images, these become input data(10,256,256,3).
+In the Face extraction algorithm Section, we make this algorithm to extract face image from video. MTCNN can extract face 95%, so we need to consider the error situations. In figure 2, this algorithm considers the error so we can get input data. We use CV2 video capture functions for capturing images. MTCNN detects Face from the captured image. If we detect 10 images, these become input data(10,256,256,3).
 
 <img src="./image/Faceextractiondetail.png" width="50%" height="50%" style="float:left">
 
 (Figure 2 Face extraction algorithm)
 
-In the One Image fake detection Algorithm, to analyze face data for detecting fake or not like figure 3. We apply inception, Batch normalization , Maxpooling. Before connecting to FC layer. Lastly, we reduce nodes to concatenate 10 images data and voice data.
+In the One Image fake detection Algorithm, to analyze face data for detecting fake or not like figure 3. We apply inception, Batch normalization, Maxpooling. Before connecting to the FC layer. Lastly, we reduce nodes to concatenate 10 images data and voice data.
 
 <img src="./image/oneimageAlgorithm.png" width="50%" height="50%" style="float:left">
 
 (Figure 3 one image analysis algorithm)
 
-In the Voice fake detection Algorithm, to analyze voice information, we apply mainly 1D convolution layer like Figure 4. 
+In the Voice fake detection Algorithm, to analyze voice information, we apply mainly the 1D convolution layer like Figure 4. 
 
 <img src="./image/VoiceCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
 (Figure 4 Voice fake detection Algorithm)
 
-In theLast CNN Algorithm, Last CNN algorithms main function is that we concatenate 11 outputs from image and voice. To calculate loss value, we make last value 0(Real) or 1(Fake).
+In theLast CNN Algorithm, the Last CNN algorithm's main function is that we concatenate 11 outputs from image and voice. To calculate loss value, we make the last value 0(Real) or 1(Fake).
 
 <img src="./image/lastCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
 (Figure 5 Last CNN Algorithm)
 
-Now, we can understand that how each algorithm work to detect video fake. We are coding like figure 6. This jupyter code is downloaded from https://github.com/Chooyoungjun/mge51101-20196018/tree/master/deepfakedetection/code.
+Now, we can understand how each algorithm work to detect video fake. We are coding like figure 6. This jupyter code is downloaded from https://github.com/Chooyoungjun/mge51101-20196018/tree/master/deepfakedetection/code.
 
 <img src="./image/Video분석전체구조.png" width="80%" height="80%" style="float:left">
 
 (Figure 6 Overall structure)
 
 # Result
-In result section, we will explain about Loss function and Test Result. 
+In the result section, we will explain about Loss function and Test Result. 
 ### Loss function
 We use the Binary Crossentropy loss as a criterion. It is computed as:
+
 ![equation](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
-This loss function can calculate large value when prediction is wrong. For example, ground truth is 0 and prediction value is 0.9. The loss is 1. If prediction value is 0.99, the loss is 2. If prediction value is 0.1, the loss is 0.0457. Likewise, this loss function can calculate exact loss value for training. That is why we choose this loss function.
+
+This loss function can calculate large value when the prediction is wrong. For example, the ground truth is 0 and the prediction value is 0.9. The loss is 1. If the prediction value is 0.99, the loss is 2. If the prediction value is 0.1, the loss is 0.0457. Likewise, this loss function can calculate the exact loss value for training. That is why we choose this loss function.
 ### Test Result
-In this project, loss function is criterion and metrics. This information can check [kaggle]( https://www.kaggle.com/c/deepfake-detection-challenge/overview/evaluation, "kaggle link")
-# Conclution
+In this project, the loss function is criterion and metrics. This information can check the [Kaggle evaluation]( https://www.kaggle.com/c/deepfake-detection-challenge/overview/evaluation, "kaggle link"). 
+In my cases, the loss value is 0.6974. it isn’t a good performance. We will discuss results and future works in the conclusion section.
+# Conclusion
 
 

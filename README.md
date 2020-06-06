@@ -8,91 +8,100 @@ E-mail: gkdlfnddy@unist.ac.kr
 
 ```
 
-kaggle deepfake data 분석
+kaggle deepfake data 분석 
 
-# Introduction
-Nowadays, youtube generates many videos. someone makes fake videos and voices for their benefits. and it makes many problems in society. they make even president fake videos. Therefore, it is a very important technology. we research fake video detecting algorithm.
+Voice & Video data
 
-Recently, Deep Neural Networks is a paradigm. It solves many difficult problems such as NLP, S2S, Image Detection, Voice Recognition, MOT, GAN. In this paper, We use Two technology Image detection and Voice Recognition. Because it can relate to video analysis.
+• What is your goal? Why this is important problem?
 
-Many researchers publish noticeable papers about CNN. For example, MTCNN can detect faces, Batch normalization can allow using a high learning rate, Inception block can extract complicate feature. To apply the CNN algorithm for deepfake detection, we need to answer the following questions:
+first goal nowadays fake videos are damaging many people 
 
-- Can we extract face from video without error?
-- Can we get voice information from the video?
-- Can we detect fake or not by using face and voice information?
+becase of Technology (Deeplearning, GAN ....)
 
-Solving the above questions makes improvements about fake detection algorithm. In this paper, we don't have remarkable achievements. Because this paper is an intermediate process of algorithm development. Therefore, we focus on applying algorithms and experiment algorithms. The brief contributions can be summarized as follows:
+second goal is to have a better score than kaggle first place 0.19170. I would like to do so and issue paper.
 
-- To extract the face image, we use the MTCNN algorithm and we consider error situations. so we can extract face from video without error.
-- To extract voice information, we use moviepy package. It allows to extract voice information from the video.
-- To detect fake or not, we use the CNN algorithm, inception block, Batch normalization, Sigmoid activation function for the last activation function.
+third goal is to understand state of the art tech (attention , emsemble..) and using my algorithm
 
-Finally, we have a discussion about our experiment and future works.
+• Description of data
 
-# Related work
+Video data almost 500GB is on [kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data, "kaggle link") website 
 
-The literature on image detection and CNN algorithm is vast and span. So, we focus on recent research about Convolution Neural Networks. To detect the face,  some of the CNNs based face detection approaches have been proposed in recent years. Yang et al. [11] train deep convolution neural networks for facial attribute recognition to obtain a high response in face regions which further yield candidate windows of faces. However, due to its complex CNN structure, this approach is time costly in practice. Li et al. [19] use cascaded CNNs for face detection, but it requires bounding box calibration from face detection with the extra computational expense and ignores the inherent correlation between facial landmarks localization and bounding box regression. To overcome the previous problem MTCNN is suggested and it shows high performance we use this algorithm for face detection.
+Almost 200000 training videos are provided on website
 
-To detect fake, feature extraction algorithm is also important. Many researchers know it is important and publish many papers. Residual bock is proposed to alleviate gradient descent with low parameters. For the same reason, the Densely block is designed and it has an additional advantage about preservation images minor characteristics. Google develops inception block. this algorithm's advantages are dimension reduction and extraction of non-linear features. We apply this inception block. 
+each video has explaination about it is fake or not.. and if it is fake, additional information origin video is added
+ex)
+"owxbbpjpch.mp4": {"label": "FAKE", "split": "train", "original": "wynotylpnm.mp4"}, 
+"vpmyeepbep.mp4": {"label": "REAL", "split": "train"},
 
-[11] S. Yang, P. Luo, C. C. Loy, and X. Tang, “From facial parts responses to
-face detection: A deep learning approach,” in IEEE International Conference on Computer Vision, 2015, pp. 3676-3684.
-[19] H. Li, Z. Lin, X. Shen, J. Brandt, and G. Hua, “A convolutional neural
-network cascade for face detection,” in IEEE Conference on Computer
-Vision and Pattern Recognition, 2015, pp. 5325-5334.
-mtcnn: Zhang et al, Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks, 2016
+but it isnt explain about kind of fake (voice? video?)
 
-# Method
+many kind of people is provided (black, white, brown, man,woman, older people, younger..)
 
- In this section, we will have a comprehensive explanation of MTCNN, Face extraction algorithm, one image analysis algorithm, Voice analysis algorithm, last analysis algorithm and overall structure.
+some video show more than two people..
 
-In the MTCNN Section, we refer to MTCNN and just apply it to our model for extracting face. This method consists of P-Net(Proposed Network), R-Net(Refinement Network), O-Net(Output Network). Each Network has its own functions. P-Net proposes candidates of windows about face classification by using input(12x12x3), bounding box regression, facial landmark location. The highly overlapped information is merged by NMS. After this information becomes R-Net input data(24x24x3). It is working similarly to P-Net, but R-Net analysis more detailly. R-Net’output data becomes O-Net’input data(48x48x3). O-Net analyzes a similar way and makes a more detailed output. This initial input image has a pyramid structure(200X160X3, 100X66X3, 30X20X3).
+![videotype](deepfakedetection/sample/videotype.jpg)
 
-<img src="./image/extractingmethod.png" width="70%" height="70%" style="float:left">
+• Explain your Data Science problems in detail
 
-(Figure 1 MTCNN 3 key methods with pyramid input)
+1. Video data is consist of 2 part color(R,G,B) and Time that is why it need high dimensional analysis
+2. 3D conv Tech is not verified and hard to filter analysis point
+3. Fake is consist of Two part (Video or Voice) but we don't know what fake is applied
+4. Voice Detection need anothor Tech (actually i don't know so i need to study.)
+5. computing resource is not enough 
 
-In the Face extraction algorithm Section, we make this algorithm to extract face image from video. MTCNN can extract face 95%, so we need to consider the error situations. In figure 2, this algorithm considers the error so we can get input data. We use CV2 video capture functions for capturing images. MTCNN detects Face from the captured image. If we detect 10 images, these become input data(10,256,256,3).
+Detail image is below 
 
-<img src="./image/Faceextractiondetail.png" width="50%" height="50%" style="float:left">
+![realimage](deepfakedetection/sample/real.jpg)
+![fakeimage](deepfakedetection/sample/fake.jpg)
 
-(Figure 2 Face extraction algorithm)
+more detail about image 
+what is part of fake? eye.. 
 
-In the One Image fake detection Algorithm, to analyze face data for detecting fake or not like figure 3. We apply inception, Batch normalization, Maxpooling. Before connecting to the FC layer. Lastly, we reduce nodes to concatenate 10 images data and voice data.
+below image show more detail about fake
 
-<img src="./image/oneimageAlgorithm.png" width="50%" height="50%" style="float:left">
+![realdetailimage](deepfakedetection/sample/realdetail.jpg)
+![fakedetailimage](deepfakedetection/sample/fakedetail.jpg)
 
-(Figure 3 one image analysis algorithm)
+So we neet to detect this kind of fake 
+Actually it is not difficult part because we can detect by our eyes.
 
-In the Voice fake detection Algorithm, to analyze voice information, we apply mainly the 1D convolution layer like Figure 4. 
+Some videos are impossible to detect fake by my eyes. In general, two algorithm is proposed first is 2d conv and 3d conv. but 2 alogorithm have a problem. 2d conv algorithm cant consider timestream, 3d conv algorithm need high computing power and is still developed so it isnt have standard structure. Therefore, It is hard mission until now.
 
-<img src="./image/VoiceCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
-(Figure 4 Voice fake detection Algorithm)
 
-In theLast CNN Algorithm, the Last CNN algorithm's main function is that we concatenate 11 outputs from image and voice. To calculate loss value, we make the last value 0(Real) or 1(Fake).
+• How to evaluate your model empirically? What is your metric?
 
-<img src="./image/lastCNNalgorithm.png" width="50%" height="50%" style="float:left">
+Evaluation Metrics is F1 score 
 
-(Figure 5 Last CNN Algorithm)
+Threshold about fake dection is 0.5 but it can be changed by result
 
-Now, we can understand how each algorithm work to detect video fake. We are coding like figure 6. This jupyter code is downloaded from https://github.com/Chooyoungjun/mge51101-20196018/tree/master/deepfakedetection/code.
+![equation](https://latex.codecogs.com/gif.latex?F1%20score%20%3D%202%5Ctimes%20%5Cfrac%7BPrecision%5Ctimes%20Recall%7D%7BPrecision&plus;%20Recall%7D)
 
-<img src="./image/Video분석전체구조.png" width="80%" height="80%" style="float:left">
 
-(Figure 6 Overall structure)
+•  Data preparation and plan
 
-# Result
-In the result section, we will explain about Loss function and Test Result. 
-### Loss function
-We use the Binary Crossentropy loss as a criterion. It is computed as:
+First - extract 10 Face by using MTCNN from each video and consider exception case (ex) 2face detection and face not found by MTCNN
+
+(whole image)
+
+![wholeimage](deepfakedetection/sample/MTCNN1.png)
+
+(face image by MTCNN)
+
+![wholeimage](deepfakedetection/sample/MTCNN2.png)
+
+
+Second - resizing 255x255x3 or 150x150x3(each case will be chosed by algorithm size and result)
+
+Third - extract 1 voice data by using moviepy editor
+
+Fourth - make a network. (2d conv alogrithm, 3d conv algorithm)
+
+Fifth - learning start using Adam optimizer and BinaryCrossentropy loss fuction
 
 ![equation](https://latex.codecogs.com/gif.latex?-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%20%5By_i%20%5Clog%28%5Chat%7By%7D_i%29&plus;%281-y_i%29%20%5Clog%281-%5Chat%7By%7D_i%29%5D)
 
-This loss function can calculate large value when the prediction is wrong. For example, the ground truth is 0 and the prediction value is 0.9. The loss is 1. If the prediction value is 0.99, the loss is 2. If the prediction value is 0.1, the loss is 0.0457. Likewise, this loss function can calculate the exact loss value for training. That is why we choose this loss function.
-### Test Result
-In this project, the loss function is criterion and metrics. This information can check the [Kaggle evaluation]( https://www.kaggle.com/c/deepfake-detection-challenge/overview/evaluation, "kaggle link"). 
-In my cases, the loss value is 0.6974. it isn’t a good performance. We will discuss results and future works in the conclusion section.
-# Conclusion
+
+Sixth - evaluate model and compare with kaggle algorithm 
 
 
