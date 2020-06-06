@@ -98,19 +98,32 @@ Below Example snapshot is my papers part of time series attention function like 
 
 # Reference
 [1]	W. Yin, K. Kann, M. Yu, and H. Schütze, “Comparative Study of CNN and RNN for Natural Language Processing,” Feb. 2017, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/1702.01923.
+
 [2]	I. Sutskever Google, O. Vinyals Google, and Q. V Le Google, “Sequence to Sequence Learning with Neural Networks.” Accessed: May 25, 2020. [Online]. Available: http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-.
+
 [3]	G. Huang, Z. Liu, L. Van Der Maaten, and K. Q. Weinberger, “Densely Connected Convolutional Networks,” 2017. Accessed: Apr. 01, 2020. [Online]. Available: https://github.com/liuzhuang13/DenseNet.
+
 [4]	K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” 2016. Accessed: Apr. 01, 2020. [Online]. Available: http://image-net.org/challenges/LSVRC/2015/.
+
 [5]	Y. Xu, A. Osep, Y. Ban, R. Horaud, L. Leal-Taixe, and X. Alameda-Pineda, “How To Train Your Deep Multi-Object Tracker,” Jun. 2019, Accessed: Jun. 07, 2020. [Online]. Available: http://arxiv.org/abs/1906.06618.
+
 [6]	C. Ledig et al., “Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network,” 2017.
+
 [7]	K. Zhang, Z. Zhang, Z. Li, and Y. Qiao, “Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks,” IEEE Signal Process. Lett., vol. 23, no. 10, pp. 1499–1503, Apr. 2016, doi: 10.1109/LSP.2016.2603342.
+
 [8]	S. Ioffe and C. Szegedy, “Batch normalization: Accelerating deep network training by reducing internal covariate shift,” in 32nd International Conference on Machine Learning, ICML 2015, 2015, vol. 1, pp. 448–456.
+
 [9]	C. Szegedy, S. Ioffe, V. Vanhoucke, A. A.-T. A. conference on, and  undefined 2017, “Inception-v4, inception-resnet and the impact of residual connections on learning,” aaai.org, Accessed: Jun. 07, 2020. [Online]. Available: https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14806.
+
 [10]	Y. Wu and K. He, “Group Normalization,” 2018.
+
 [11]	J. Park, S. Woo, J.-Y. Lee, and I. S. Kweon, “BAM: Bottleneck Attention Module,” Br. Mach. Vis. Conf. 2018, BMVC 2018, Jul. 2018, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/1807.06514.
+
 [12]	J. Gehring, M. Auli, D. Grangier, D. Yarats, and Y. N. Dauphin, “Convolutional Sequence to Sequence Learning,” 2017. Accessed: Apr. 01, 2020. [Online]. Available: https://dl.acm.org/citation.cfm?id=3305510.
+
 [13] S. Yang, P. Luo, C. C. Loy, and X. Tang, “From facial parts responses to
 face detection: A deep learning approach,” in IEEE International Conference on Computer Vision, 2015, pp. 3676-3684.
+
 [14] H. Li, Z. Lin, X. Shen, J. Brandt, and G. Hua, “A convolutional neural
 network cascade for face detection,” in IEEE Conference on Computer
 Vision and Pattern Recognition, 2015, pp. 5325-5334.
