@@ -64,22 +64,19 @@ In the One Image fake detection Algorithm, to analyze face data for detecting fa
 
 (Figure 3 one image analysis algorithm)
 
-
-
-In the Voice fake detection Algorithm,
+In the Voice fake detection Algorithm, to analyze voice information, we apply mainly 1D convolution layer like Figure 4. 
 
 <img src="./image/VoiceCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
 (Figure 4 Voice fake detection Algorithm)
 
-In theLast CNN Algorithm,
+In theLast CNN Algorithm, Last CNN algorithms main function is that we concatenate 11 outputs from image and voice. To calculate loss value, we make last value 0(Real) or 1(Fake).
 
 <img src="./image/lastCNNalgorithm.png" width="50%" height="50%" style="float:left">
 
 (Figure 5 Last CNN Algorithm)
 
-
-In the Overall structure,
+Now, we can understand that how each algorithm work to detect video fake. We are coding like figure 6. This jupyter code is downloaded from https://github.com/Chooyoungjun/mge51101-20196018/tree/master/deepfakedetection/code.
 
 <img src="./image/Video분석전체구조.png" width="80%" height="80%" style="float:left">
 
