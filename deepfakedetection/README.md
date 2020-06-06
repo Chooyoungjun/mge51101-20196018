@@ -82,9 +82,10 @@ Now, we can understand that how each algorithm work to detect video fake. We are
 
 (Figure 6 Overall structure)
 
-
 # Result
-
+## Loss function
+## Metrics
+## Test Result
 # Conclution
 
 
