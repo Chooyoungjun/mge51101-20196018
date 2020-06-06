@@ -8,7 +8,7 @@ E-mail: gkdlfnddy@unist.ac.kr
 
 ```
 
-kaggle deepfake data 분석 
+kaggle deepfake data 분석
 
 # Introduction
 Nowadays, youtube generates many videos. someone makes fake videos and voices for their benefits. and it makes many problems in society. they make even president fake videos. Therefore, it is a very important technology. we research fake video detecting algorithm.
@@ -52,14 +52,13 @@ In the MTCNN Section, we refer to MTCNN and just apply it to our model for extra
 
 (Figure 1 MTCNN 3 key methods with pyramid input)
 
-In the Face extraction algorithm Section, we make this algorithm to extract face image from video. MTCNN can extract face 95%, so we need to consider the error situations.
+In the Face extraction algorithm Section, we make this algorithm to extract face image from video. MTCNN can extract face 95%, so we need to consider the error situations. In figure 2, this algorithm considers about error so we can get input data. Basically, we use CV2 video capture functions for capturing image. MTCNN detects Face from captured image. If we detect 10 images, these become input data(10,256,256,3).
 
 <img src="./image/Faceextractiondetail.png" width="50%" height="50%" style="float:left">
 
 (Figure 2 Face extraction algorithm)
 
-
-In the One Image fake detection Algorithm,
+In the One Image fake detection Algorithm, to analyze face data for detecting fake or not like figure 3. We apply inception, Batch normalization , Maxpooling. Before connecting to FC layer. Lastly, we reduce nodes to concatenate 10 images data and voice data.
 
 <img src="./image/oneimageAlgorithm.png" width="50%" height="50%" style="float:left">
 
