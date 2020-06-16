@@ -91,6 +91,7 @@ In my cases, the loss value is 0.6974. it isn’t a good performance. We will di
 |280|0.00001|
 
 Train loss & validation loss
+
 <img src="./image/trainloss.png" width="50%" height="50%" style="float:left">
 
 
