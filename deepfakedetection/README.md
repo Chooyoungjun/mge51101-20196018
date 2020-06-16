@@ -86,6 +86,10 @@ This loss function can calculate large value when the prediction is wrong. For e
 ### Test Result
 In this project, the loss function is criterion and metrics. This information can check the [Kaggle evaluation]( https://www.kaggle.com/c/deepfake-detection-challenge/overview/evaluation, "kaggle link"). 
 In my cases, the loss value is 0.6974. it isn’t a good performance. We will discuss results and future works in the conclusion section.
+|epoch|learning rate|
+|------|---|
+|400|0.00001|
+
 
 # Conclusion
 
