@@ -88,10 +88,10 @@ In this project, the loss function is criterion and metrics. This information ca
 In my cases, the loss value is 0.6974. it isn’t a good performance. We will discuss results and future works in the conclusion section.
 |epoch|learning rate|
 |------|---|
-|400|0.00001|
+|280|0.00001|
 
 Train loss & validation loss
-<img src="./image/trainloss.png" width="100%" height="100%" style="float:left">
+<img src="./image/trainloss.png" width="50%" height="50%" style="float:left">
 
 
 # Conclusion
