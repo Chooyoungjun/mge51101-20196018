@@ -85,15 +85,21 @@ We use the Binary Crossentropy loss as a criterion. It is computed as:
 This loss function can calculate large value when the prediction is wrong. For example, the ground truth is 0 and the prediction value is 0.9. The loss is 1. If the prediction value is 0.99, the loss is 2. If the prediction value is 0.1, the loss is 0.0457. Likewise, this loss function can calculate the exact loss value for training. That is why we choose this loss function.
 ### Test Result
 In this project, the loss function is criterion and metrics. This information can check the [Kaggle evaluation]( https://www.kaggle.com/c/deepfake-detection-challenge/overview/evaluation, "kaggle link"). 
-In my cases, the loss value is 0.6974. it isn’t a good performance. We will discuss results and future works in the conclusion section.
-|epoch|learning rate|
-|------|---|
-|420|0.00001|
+
+Result
+
+|loss value|
+|------|
+|0.6974|
 
 Train loss & validation loss
 
 <img src="./image/trainloss.png" width="50%" height="50%" style="float:left">
 
+Parameter
+
+- epoch : 420
+- learning rate: 0.00001
 
 # Conclusion
 
